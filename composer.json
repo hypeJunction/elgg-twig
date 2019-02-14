@@ -1,0 +1,30 @@
+{
+	"name": "hypejunction/elgg-twig",
+	"type": "elgg-plugin",
+	"description": "Twig Template Rendering for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"twig",
+        "templates"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0",
+		"twig/twig": "^2.6",
+        "hypejunction/elgg-di": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
